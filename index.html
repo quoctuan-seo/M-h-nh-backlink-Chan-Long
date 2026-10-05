@@ -10,10 +10,11 @@
 @media(max-width:650px){.wrap{padding:0 16px}.nav .wrap{gap:12px;padding-top:10px;padding-bottom:10px}.nav a:first-child{width:100%}.hero{padding-top:28px}.section{padding:18px}.total{display:block}.total strong{display:block;margin-top:8px;font-size:25px}.section-head h2{font-size:23px}.sheet{min-width:1280px}.hero-grid{gap:24px}.lead{font-size:17px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{@page{size:A4 portrait;margin:12mm}html,body{background:white;font-size:10pt}.wrap{max-width:none;padding:0}.nav,.controls,.legend,.caption,.technical{display:none}.hero{padding-top:0;padding-bottom:20px}.hero-grid{grid-template-columns:1fr 220px;gap:20px}h1{font-size:28pt}h2{font-size:18pt}.lead{font-size:12pt}.amount{font-size:19pt}.decision{display:block;font-size:10pt}.section{border:0;padding:0;margin-bottom:25px}.diagram-section{break-before:page;break-after:page}.routes{display:none}.diagram-scroll{overflow:visible;border:0}.sheet,.sheet.zoom{width:100%;min-width:0}.table-scroll{overflow:visible}table,.implementation,.budget{min-width:0;font-size:9pt}th,td{padding:8px}.section-head{margin-bottom:12px}.section-head p{font-size:9pt}tr{break-inside:avoid}.timeline{display:none}.total{print-color-adjust:exact}.total strong{font-size:20pt}.pending{grid-template-columns:1fr 1fr}.pending p{font-size:9pt}.budget-section{break-before:page}.small,.note{font-size:9pt}.print-note{display:block;font-size:9pt;color:#607368;margin-top:12px}footer{font-size:8pt}}
+.feedback-link{background:var(--ink);color:#fff;border-color:var(--ink)}.feedback-link:hover{background:var(--green);color:#fff}@media print{.feedback-section{display:none}}
 </style>
 </head>
 <body>
-<nav class="nav" aria-label="Điều hướng đề xuất"><div class="wrap"><a href="#overview">CHAN LONG · ĐỀ XUẤT OFFSITE</a><a href="#diagram">Sơ đồ</a><a href="#deployment">Triển khai</a><a href="#budget">Ngân sách</a><button class="button" id="print">In / PDF</button></div></nav>
+<nav class="nav" aria-label="Điều hướng đề xuất"><div class="wrap"><a href="#overview">CHAN LONG · ĐỀ XUẤT OFFSITE</a><a href="#diagram">Sơ đồ</a><a href="#deployment">Triển khai</a><a href="#budget">Ngân sách</a><a href="#feedback">Góp ý</a><button class="button" id="print">In / PDF</button></div></nav>
 <main class="wrap">
 <header class="hero" id="overview">
 <p class="eyebrow">Trình duyệt mô hình và ngân sách · 05/10/2026</p>
@@ -57,6 +58,12 @@
 <div class="total"><span>Ngân sách tạm tính</span><strong>9.000.000đ + 80 USD</strong></div>
 <div class="pending"><div><h3>Chưa nằm trong tổng</h3><p>Công xây tool, chuẩn hóa và cập nhật dữ liệu, nội dung Google Sites/TAS; công biên tập chưa xác nhận, thuế và phí thanh toán/tỷ giá.</p></div><div><h3>Cần chốt trước khi triển khai</h3><p>URL tool/Sites, phân bổ sidebar sau khi lọc nguồn, khối lượng GP, số link trong bài Pháp Luật, người phụ trách và lịch thực tế.</p></div></div>
 <p class="print-note">Chi tiết công thức và đối soát được lưu trong mục “Chi tiết kỹ thuật” của file HTML. Đây là bản trình duyệt; chưa mua gói hoặc xuất bản.</p>
+</section>
+<section class="section feedback-section" id="feedback" aria-labelledby="feedback-title">
+<div class="section-head"><h2 id="feedback-title">Nhận xét &amp; phản hồi</h2><p>Góp ý về sơ đồ, phân bổ liên kết, cách triển khai hoặc ngân sách.</p></div>
+<p>Anh/chị vui lòng ghi rõ <strong>phần cần chỉnh → nhận xét → đề nghị điều chỉnh</strong>. Mọi trao đổi được lưu chung để đối chiếu khi cập nhật kế hoạch.</p>
+<p style="margin-top:18px"><a class="button feedback-link" href="https://github.com/quoctuan-seo/M-h-nh-backlink-Chan-Long/issues/1" target="_blank" rel="noopener noreferrer">Viết / xem nhận xét trên GitHub ↗</a></p>
+<p class="small" style="margin-top:12px">Đăng nhập GitHub, nhập ý kiến vào ô “Add a comment”, rồi bấm “Comment”. Bình luận hiển thị công khai cùng repository. Bản kế hoạch vẫn chờ duyệt.</p>
 </section>
 <section class="section technical" id="technical" aria-labelledby="technical-title">
 <div class="section-head"><h2 id="technical-title">Chi tiết kỹ thuật</h2><p>Mở khi cần kiểm tra công thức, dữ liệu nguồn và yêu cầu thực thi.</p></div>
