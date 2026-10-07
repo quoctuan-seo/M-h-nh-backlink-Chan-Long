@@ -9,7 +9,7 @@ Bản trình review mô hình triển khai và ngân sách.
 
 Trang có bộ lọc các nhánh backlink, phóng to sơ đồ, bảng triển khai, ngân sách và mục chi tiết kỹ thuật thu gọn. Dùng nút **In / PDF** để xuất bản trình duyệt.
 
-Nội dung cập nhật ngày 07/10/2026. Các tỷ lệ đề xuất và khoản chưa tính được ghi rõ trong bản trình review.
+Nội dung cập nhật ngày 07/10/2026. Chốt Strikingly Pro và Google Sites hiện hữu; không triển khai TAS/08 trong đợt này. Sidebar: 440 vợt, 320 bóng, tối đa 40 đúng hãng, 200 Google Sites. Suất hãng không khớp chuyển về vợt. Ngân sách và ba đợt triển khai được ghi rõ trong bản trình review.
 
 ## Triển khai
 
